@@ -1,0 +1,191 @@
+body {
+    position: absolute;
+    width: 940px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.logo {
+    position: static;
+    width: 120px;
+    height: 48px;
+    left: 0px;
+    top: 0px;
+    margin: 40px 0px;
+}
+
+.digite {
+    position: absolute;
+    width: 680px;
+    height: 48px;
+    left: 200px;
+    top: 100px;
+    font-family: 'Inter';
+    font-size: 32px;
+    color: #0A3871;
+}
+
+
+.textodigitado {
+    position: absolute;
+    width: 680px;
+    height: 48px;
+    left: 200px;
+    top: 148px;
+    font-family: 'Inter';
+    font-size: 32px;
+    color: #0A3871;
+}
+
+.retangulo {
+    position: absolute;
+    width: 400px;
+    height: 600px;
+    left: 940px;
+    top: 40px;
+    background: rgb(152, 152, 152);
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+
+#resultado {
+    display: none;
+    position: absolute;
+    width: 400px;
+    height: 600px;
+    left: 940px;
+    top: 40px;
+    background: #0A3871;
+    background: rgba(0, 0, 100, 50);
+    border-radius: 32px;
+}
+
+#resultado textarea{
+    box-sizing: border-box;
+    margin: 10%;
+    padding: 10%;
+    font-size: 18px;
+    width: 80%;
+    height: 50%;
+    left: 950px;
+    top: 200px;
+    background: #D8DFE8;
+    border-radius: 32px;
+}
+
+#copiar{
+    width: 30%;
+    padding: 2%;
+    margin: 0% 35%;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#copiar:hover{
+    transform: scale(120%);
+    transition: 500ms;
+}
+
+#imagem {
+    position: relative;
+    padding-left: 8%;
+    width: 336px;
+    height: 304px;
+    top: 5%;
+}
+
+.texto1 {
+    width: 336px;
+    height: 58px;
+    font-family: 'Inter';
+    font-size: 24px;
+    text-align: center;
+    margin: 20% 10% 0%;
+}
+
+.texto2 {
+    width: 336px;
+    height: 48px;
+    font-family: 'Inter';
+    font-size: 16px;
+    text-align: center;
+    margin: 8% 10%;
+}
+
+#info {
+    position: absolute;
+    left: 200px;
+    top: 475px;
+}
+
+.information {
+    width: 300px;
+    height: 18px;
+    font-family: 'Inter';
+    font-size: 15px;
+    color: #495057;
+    opacity: 0.8;
+    margin: 0px 8px;
+}
+
+.botao {
+    display: flex;
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    left: 200px;
+    top: 500px;
+}
+
+#criptografar {
+    padding: 3%;
+    width: 328px;
+    height: 67px;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    left: 352px;
+    background: rgba(0, 0, 100, 50);
+    border: 1px solid black;
+    box-sizing: border-box;
+    border-radius: 24px;
+    cursor: pointer;
+}
+
+#criptografar:hover {
+    transform: scale(105%);
+    transition: 500ms;
+}
+
+#descriptografar {
+    padding: 3%;
+    width: 328px;
+    height: 67px;
+    font-weight: bold;
+    font-size: 18px;
+    left: 352px;
+    color:#0A3871;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    box-sizing: border-box;
+    border-radius: 24px;
+    margin: 0px 24px;
+    cursor: pointer;
+}
+
+#descriptografar:hover {
+    transform: scale(105%);
+    transition: 500ms;
+}
+
+
+.copyright {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    top: 590px;
+    margin: 0 50% 0;
+    opacity: 0.8;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Desafio Alura</title>
+    <meta name="author" content="Gabriel">
+    <meta name="description" content="Criptografar">
+
+    <link rel="stylesheet" href="style/main.css">
+
+    <script src="js/setup.js"></script>
+
+</head>
+
+<!-- COMENTARIO - Add. evento onload do body para iniciar variaveis -->
+
+<body onload="iniciarTela();">
+
+    <header>
+        <img class="logo" src="img/logo.png">
+    </header>
+
+    <main>
+
+        <form>
+            <label class="digite" for="digite">Digite seu texto</label>
+            <input type="text" id="digite" class="textodigitado" name="text" placeholder="Comece a digitar aqui!"
+                oninput="validaTextoInput()">
+
+            <div id="info">
+                <p class="information">&#x24D8 Apenas letras minúsculas e sem acentos</p>
+            </div>
+
+            <div class="botao">
+                <input type="button" id="criptografar" value="Criptografar" onclick="btnCriptografar()">
+                <input type="button" id="descriptografar" value="Descriptografar" onclick="btnDescriptografar()">
+            </div>
+        </form>
+
+        <section class="retangulo">
+            <img id="imagem" src="img/busca.png">
+
+            <div class="texto1">
+                <h4>Nenhuma mensagem <br> encontrada</h4>
+            </div>
+
+            <div class="texto2">
+                <p>Digite um texto que você deseja <br>criptografar ou descriptografar.</p>
+            </div>
+        </section>
+
+        <section id="resultado">
+            <textarea id="criptografado"></textarea>
+
+            <input type="button" id="copiar" value="Copiar" onclick="btnCopiar()">
+        </section>
+
+    </main>
+
+    <footer>
+        <div id="direitos">
+            <p class="copyright">&copy; Copyright Alura - 2019<br> By: Gabriel Godoy</p>
+        </div>
+    </footer>
+</body>
+
+</html>
